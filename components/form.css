@@ -1,0 +1,104 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
+
+.seccion-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  height: 667px;
+  background-color: #d6814a;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: white;
+}
+
+.contacto__title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media (min-width: 900px) {
+  .contacto__title {
+    display: inline;
+    margin: 0;
+  }
+}
+
+.contacto__contenedor-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .contacto__contenedor-form {
+    flex-direction: row;
+    justify-content: center;
+    gap: 71px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 900px) {
+  .form {
+    width: 50%;
+  }
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-nombre,
+.input-email,
+.input-provincia {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 4px;
+}
+
+.input-mensaje {
+  width: 100%;
+  height: 90px;
+  border: none;
+  border-radius: 4px;
+}
+
+.boton {
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+  background-color: #ffebb5;
+  color: #d6814a;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.boton:hover {
+  background-color: #fdcd95;
+}
+
+.boton:active {
+  box-shadow: 0 0 24px #ffebb5;
+}

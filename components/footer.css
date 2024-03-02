@@ -1,0 +1,78 @@
+.seccion-footer {
+  background-color: #063831;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+}
+
+@media (min-width: 690px) {
+  .seccion-footer {
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__logo__img {
+  width: 120px;
+  height: 120px;
+  display: block;
+}
+
+.footer__logo__derechos-reservados {
+  color: #E9F5DB;
+}
+
+.footer__rrss {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 80px auto auto auto;
+}
+
+.footer__rrss__red-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer__rrss__link {
+  text-decoration: none;
+}
+
+.footer__rrss__link:active {
+  box-shadow: 0 0 24px #E9F5DB;
+}
+
+.footer__rrss__red-social__logo-linkedin,
+.footer__rrss__red-social__logo-github,
+.footer__rrss__red-social__logo-instagram {
+  width: 45px;
+  height: 45px;
+  display: inline;
+  margin: auto 0;
+}
+
+.footer__rrss__red-social__linkedin,
+.footer__rrss__red-social__github,
+.footer__rrss__red-social__instagram {
+  color: #E9F5DB;
+  display: inline;
+  margin: auto 8px;
+}

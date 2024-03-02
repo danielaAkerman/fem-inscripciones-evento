@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- IMPORTAMOS COMPONENTES -->
+    <link rel="stylesheet" href="./components/header.css" />
+    <script defer src="./components/header.js"></script>
+
+    <link rel="stylesheet" href="./components/form.css" />
+    <script defer src="./components/form.js"></script>
+
+    <link rel="stylesheet" href="./components/footer.css" />
+    <script defer src="./components/footer.js"></script>
+
+    <!-- IMPORTAMOS JS Y CSS -->
+    <link rel="stylesheet" href="./pages/index.css" />
+    <script defer src="./pages/index.js"></script>
+
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <title>Daniela Akerman</title>
+  </head>
+  <body>
+    <header class="seccion-header"></header>
+
+    <section class="seccion-welcome">
+      <h1 class="welcome__hola"></h1>
+      <span class="welcome__soy-daniela"></span>
+      
+    </section>
+    
+    <svg class="hero-waves1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(6,56,49, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(6,56,49, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="6" fill="rgba(6,56,49)">
+      </g>
+    </svg>
+
+
+    <section class="seccion-presentacion">
+      <div class="presentacion__texto">
+        <h2 class="presentacion__texto__soy-daniela"></h2>
+        <p class="presentacion__texto__sobre-mi"></p>
+      </div>
+      <div class="presentacion__img-container">
+        <img class="presentacion__img" src="" alt="ok" />
+      </div>
+    </section>
+
+
+    <svg class="hero-waves2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(233, 245, 219, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(233, 245, 219, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="6" fill="rgba(233, 245, 219)">
+      </g>
+    </svg>
+
+
+    <svg class="hero-waves3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(214, 129, 74, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(214, 129, 74, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="6" fill="rgba(214, 129, 74)">
+      </g>
+    </svg>
+
+
+    <section class="seccion-contacto"></section>
+<!-- TESTINGGGGGG -->
+<!-- <form action="" class="form">
+  <div class="contacto__fieldset">
+    <label for="nombre" class="label">Nomb65454165468468re</label>
+        <input id="nombre" name="nombre" class="input-nombre" type="text" />
+      </div>
+      <div class="contacto__fieldset">
+        <label for="email" class="label">Email</label>
+        <input id="email" name="email" class="input-email" type="email" />
+      </div>
+      <div>
+        <label for="provincia" class="label">Provincia</label>
+        <select name="select-provincia" id="select-provincia"> 
+          <option value="Buenos Aires">Buenos Aires</option> 
+          <option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option> 
+          <option value="Catamarca">Catamarca</option> 
+          <option value="Chaco">Chaco</option> 
+          <option value="Chubut">Chubut</option> 
+          <option value="Córdoba">Córdoba</option> 
+          <option value="Corrientes">Corrientes</option> 
+          <option value="Entre Ríos">Entre Ríos</option> 
+          <option value="Formosa">Formosa</option> 
+          <option value="Jujuy">Jujuy</option> 
+          <option value="La Pampa">La Pampa</option> 
+          <option value="La Rioja">La Rioja</option> 
+          <option value="Mendoza">Mendoza</option> 
+          <option value="Misiones">Misiones</option> 
+          <option value="Neuquén">Neuquén</option> 
+          <option value="Río Negro">Río Negro</option> 
+          <option value="Salta">Salta</option> 
+          <option value="San Juan">San Juan</option> 
+          <option value="San Luis">San Luis</option> 
+          <option value="Santa Cruz">Santa Cruz</option> 
+          <option value="Santa Fe">Santa Fe</option> 
+          <option value="Santiago del Estero">Santiago del Estero</option> 
+          <option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option> 
+          <option value="Tucumán">Tucumán</option> 
+        </select>
+      </div>
+        
+      <button class="boton">Enviar</button>
+    </form>
+     -->
+<!-- FINNNN  TESTINGGGGGG -->
+
+    <svg class="hero-waves4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(6,56,49, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(6,56,49, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="6" fill="rgba(6,56,49)">
+      </g>
+    </svg>
+
+
+    <section class="seccion-footer"></section>
+  </body>
+</html>
