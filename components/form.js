@@ -62,15 +62,17 @@ function postData() {
     const value = Object.fromEntries(data.entries());
 
     const mensaje = `
-    Nombre: 
+    NOMBRE: 
     ${value.nombre}; 
 
+    
 
-    Email: 
+
+    EMAIL: 
     ${value.email}
 
 
-    Provincia:
+    PROVINCIA:
     ${value.provincia};
     `;
 
@@ -90,7 +92,7 @@ function postData() {
       }),
     })
       .then(() => {
-        alert("Gracias por escribirme!");
+        alert("Gracias por inscribirte!");
         document.querySelectorAll(".form__input").forEach((input) => {
           input.value = "";
         });

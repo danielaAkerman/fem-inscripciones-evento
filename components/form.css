@@ -14,7 +14,7 @@ body {
   justify-content: center;
   padding: 20px;
   height: 667px;
-  background-color: #d6814a;
+  background-color: #7B2CBF;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   font-size: 18px;
@@ -88,8 +88,8 @@ body {
   height: 50px;
   font-family: "Poppins", sans-serif;
   margin-top: 40px;
-  background-color: #ffebb5;
-  color: #d6814a;
+  background-color: #C77DFF;
+  color: #7B2CBF;
   border: none;
   border-radius: 4px;
   font-weight: bold;
@@ -100,5 +100,5 @@ body {
 }
 
 .boton:active {
-  box-shadow: 0 0 24px #ffebb5;
+  box-shadow: 0 0 24px #C77DFF;
 }

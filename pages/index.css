@@ -9,32 +9,37 @@ body {
 }
 
 .seccion-welcome {
-  background: linear-gradient(to bottom, #063831, #e9f5db );
+  background: linear-gradient(to bottom, #3C096C, #EDF6F9);
   height: calc(100vh - 75px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .welcome__hola {
-  font-size: 72px;
-  color: #063831;
+  font-size: 56px;
+  color: #3C096C;
   margin-top: 0;
+  text-align: center;
 }
+
 .welcome__soy-daniela {
   font-size: 48px;
-  color: #063831;
+  color: #3C096C;
+  text-align: center;
 }
 
 .seccion-presentacion {
-  background-color: #063831;
-  color: #e9f5db;
+  background-color: #3C096C;
+  color: #EDF6F9;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   padding: 50px;
 }
+
 @media (max-width: 900px) {
   .seccion-presentacion {
     flex-direction: column;
@@ -50,6 +55,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 @media (min-width: 900px) {
   .presentacion__texto {
     flex-grow: 1;
@@ -60,14 +66,17 @@ body {
 .presentacion__texto__soy-daniela {
   font-size: 32px;
 }
+
 .presentacion__texto__sobre-mi {
   font-size: 18px;
 }
+
 .presentacion__img-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .presentacion__img {
   height: 400px;
 
@@ -75,59 +84,69 @@ body {
 }
 
 .seccion-servicios {
-  background-color: #e9f5db;
-  color: #063831;
+  background-color: #EDF6F9;
+  color: #3C096C;
   padding-top: 75px;
   padding-bottom: 30px;
 }
+
 @media (min-width: 796px) {
   .seccion-servicios {
     padding-left: 30px;
     padding-right: 30px;
   }
 }
+
 .servicios__title {
   text-align: center;
   font-size: 32px;
   font-weight: bold;
   margin-top: 0px;
 }
+
 .servicios__container {
   padding: 40px;
   display: grid;
   gap: 30px;
 }
+
 @media (min-width: 796px) {
   .servicios__container {
     grid-template-columns: 1fr 1fr;
   }
 }
+
 @media (min-width: 1099px) {
   .servicios__container {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
 .servicios__container__uno {
   padding: 20px;
 
   border-radius: 4px;
 }
-.servicio {
-}
+
+.servicio {}
+
 .servicios__container__imagen-servicio {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 .imagen-servicio {
   width: 250px;
   height: 250px;
   margin: 0 auto;
 }
+
 .titulo-servicio {
   font-size: 24px;
   text-align: center;
 }
+
 .descripcion-servicio {
   font-size: 18px;
   text-align: center;
@@ -144,8 +163,9 @@ body {
   height: 60px;
   z-index: 5;
   position: relative;
-  background-color: #e9f5db;
+  background-color: #EDF6F9;
 }
+
 .hero-waves2 {
   display: block;
   /* margin-top: 60px; */
@@ -153,8 +173,9 @@ body {
   height: 60px;
   z-index: 5;
   position: relative;
-  background-color: #063831;
+  background-color: #3C096C;
 }
+
 .hero-waves3 {
   display: block;
   /* margin-top: 60px; */
@@ -162,8 +183,9 @@ body {
   height: 60px;
   z-index: 5;
   position: relative;
-  background-color: #e9f5db;
+  background-color: #EDF6F9;
 }
+
 .hero-waves4 {
   display: block;
   /* margin-top: 60px; */
@@ -254,4 +276,11 @@ body {
   100% {
     transform: translate(85px, 0%);
   }
+}
+
+
+/* TEXTO */
+
+.febrero {
+  text-align: end
 }
