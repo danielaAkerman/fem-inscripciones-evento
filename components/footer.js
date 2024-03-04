@@ -4,7 +4,7 @@ function footerComponent(element) {
   <div class="seccion-footer">
     <div class="footer__logo">
 
-        <p class="footer__logo__derechos-reservados">© 2024 RadFem Córdoba</p>
+        <p class="footer__logo__derechos-reservados">© EFM 2024 Córdoba</p>
       </div>
       <div class="footer__rrss">
 
@@ -18,7 +18,7 @@ function footerComponent(element) {
               src="./img/instagram.png"
               alt="instagram"
             />
-            <p class="footer__rrss__red-social__instagram">Instagram</p>
+            <p class="footer__rrss__red-social__instagram">/efm2024_cba</p>
           </div>
         </a>
 

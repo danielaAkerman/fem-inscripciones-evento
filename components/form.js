@@ -1,9 +1,19 @@
-function contactComponent(element) {
+function contactComponent(element) { //anotate
   const componentEl = document.createElement("div");
   componentEl.innerHTML = `
     <div class="seccion__contacto">
+
+    </p>
+
+
+    <br><br>
+    <h1 style="font-size: 24px; text-align: center;">
+    Completá el formulario para participar del EFM 2024 en Córdoba:
+    </h1>
+    <br><br>
+
       <div class="contacto__contenedor-form">
-        <h2 class="contacto__title">Anotate</h2>
+       
 
         <form action="" class="form">
           <div class="contacto__fieldset">
@@ -43,8 +53,10 @@ function contactComponent(element) {
           <option value="Tucumán">Tucumán</option> 
         </select>
       </div>
-
+      <div class="boton-container">
           <button class="boton">Enviar</button>
+          <div class="form-enviado"></div>
+          </div>
         </form>
       </div>
     </div>
@@ -54,6 +66,8 @@ function contactComponent(element) {
 
 function postData() {
   const form = document.querySelector(".seccion-contacto");
+
+
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -65,19 +79,14 @@ function postData() {
     NOMBRE: 
     ${value.nombre}; 
 
-    
-
-
+    <br><br>
     EMAIL: 
     ${value.email}
 
-
+    <br><br>
     PROVINCIA:
     ${value.provincia};
     `;
-
-
-    console.log(mensaje)
 
 
     fetch("https://apx-api.vercel.app/api/utils/dwf", {
@@ -92,14 +101,17 @@ function postData() {
       }),
     })
       .then(() => {
-        alert("Gracias por inscribirte!");
         document.querySelectorAll(".form__input").forEach((input) => {
-          input.value = "";
+          input.innerHTML = "";
         });
+
+        const formEnviado = form.querySelector(".form-enviado")
+        formEnviado.innerHTML=`
+        Tus datos se han registrado con éxito
+        `
       })
-      .catch((err) => {
-        alert("Ha ocurrido un error, intentalo nuevamente");
-      });
+
+
   });
 }
 postData();

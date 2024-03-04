@@ -17,14 +17,14 @@ body {
   justify-content: center;
 }
 
-.welcome__hola {
-  font-size: 56px;
+.welcome__efm {
+  font-size: 48px;
   color: #3C096C;
   margin-top: 0;
   text-align: center;
 }
 
-.welcome__soy-daniela {
+.welcome__cordoba {
   font-size: 48px;
   color: #3C096C;
   text-align: center;
@@ -284,3 +284,5 @@ body {
 .febrero {
   text-align: end
 }
+
+/* seccion-welcome */

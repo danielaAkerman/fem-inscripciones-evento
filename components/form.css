@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-  height: 667px;
+  height: 800px;
   background-color: #7B2CBF;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
@@ -41,10 +41,11 @@ body {
 
   width: 100%;
 }
-
+/* boton */
 @media (min-width: 900px) {
   .contacto__contenedor-form {
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     gap: 71px;
   }
@@ -83,7 +84,14 @@ body {
   border: none;
   border-radius: 4px;
 }
-
+.boton-container{
+  display: flex;
+  flex-direction: column;
+}
+.form-enviado{
+  text-align: center;
+  font-size: 14px;
+}
 .boton {
   height: 50px;
   font-family: "Poppins", sans-serif;
