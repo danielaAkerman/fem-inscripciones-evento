@@ -11,7 +11,7 @@ body {
 .seccion-welcome {
   font-family: "Raleway", sans-serif;
   /* background: linear-gradient(to bottom, #3C096C, #EDF6F9); */
-  height: calc(100vh - 75px);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
