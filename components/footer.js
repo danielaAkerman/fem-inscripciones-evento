@@ -10,6 +10,7 @@ function footerComponent(element) {
 
         <a
           class="footer__rrss__link"
+          target="_blank"
           href="https://www.instagram.com/efm2024_cba/"
         >
           <div class="footer__rrss__red-social">

@@ -1,4 +1,4 @@
-// import { getPortfolio } from "./portfolio";
+// firebase deploy --only hosting
 
 
 function addBienvenida() {
@@ -81,7 +81,7 @@ function addPresentacion() {
     </p>
 
     <p>
-      Las Mujeres no somos una identidad a adoptar entre tantas, somos más de la mitad de la mitad de la humanidad.
+      Las Mujeres no somos una identidad a adoptar entre tantas, somos más de la mitad de la humanidad.
       Somos un sujeto político completo compuesto no sólo por nuestros cuerpos sino también por las experiencias, las
       oportunidades y las circunstancias que hemos acumulado en nuestra vida por nacer mujeres.
 
@@ -109,7 +109,7 @@ function addPresentacion() {
     <br><br>
 
     <p>Podés leer el Documento 35ENM haciendo 
-    <a href="https://drive.google.com/file/d/10obAIA10mW9ep1pnM8HHzuwTULNeEuI4/view?usp=drive_link" style="color: #EDF6F9;">click aquí</a>
+    <a href="https://drive.google.com/file/d/1oOVpDCxxBFoanK4QQlIGso3H5u0qaP2I/view?usp=sharing" style="color: #EDF6F9;" target="_blank">click aquí</a>
 
 
   </div>
