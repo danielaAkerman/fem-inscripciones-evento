@@ -9,13 +9,22 @@ body {
 }
 
 .seccion-welcome {
-  background: linear-gradient(to bottom, #3C096C, #EDF6F9);
+  font-family: "Raleway", sans-serif;
+  /* background: linear-gradient(to bottom, #3C096C, #EDF6F9); */
   height: calc(100vh - 75px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  background-image: linear-gradient(to bottom,
+      rgba(60, 9, 108, 0.544),
+      rgba(255, 255, 255, 0.564)), 
+      url("../img/women.jpg");
+      /* url("../img/black.jpg"); */
+      /* url("../img/flowers.jpg"); */
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .welcome__efm {
