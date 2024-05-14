@@ -1,4 +1,4 @@
-function contactComponent(element) { //anotate
+function contactComponent(element) { 
   const componentEl = document.createElement("div");
   componentEl.innerHTML = `
     <div class="seccion__contacto">
@@ -16,14 +16,22 @@ function contactComponent(element) { //anotate
        
 
         <form action="" class="form">
+
           <div class="contacto__fieldset">
             <label for="nombre" class="label">Nombre</label>
             <input id="nombre" name="nombre" class="input-nombre" type="text" />
           </div>
+
           <div class="contacto__fieldset">
             <label for="email" class="label">Email</label>
             <input id="email" name="email" class="input-email" type="email" />
           </div>
+
+          <div class="contacto__fieldset">
+            <label for="whatsapp" class="label">Celular</label>
+            <input id="whatsapp" name="whatsapp" class="input-whatsapp" type="whatsapp" />
+          </div>
+
           <div>
         <label for="provincia" class="label">Provincia</label>
         <select name="provincia" class="input-provincia"> 
@@ -82,6 +90,10 @@ function postData() {
     <br><br>
     EMAIL: 
     ${value.email}
+
+    <br><br>
+    CELULAR: 
+    ${value.whatsapp}
 
     <br><br>
     PROVINCIA:
